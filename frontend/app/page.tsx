@@ -1,4 +1,5 @@
-import Image from "next/image";
+import CodeEditor from "@/app/components/CodeEditor";
+
 
 export default function Home() {
  return (
@@ -6,7 +7,8 @@ export default function Home() {
     <aside
     className="h-full w-1/4 bg-amber-50 rounded-lg">
        </aside>
-       <section className=" w-3/4 bg-neutral-800 rounded-lg">
+       <section className=" w-3/4 bg-neutral-800 rounded-lg overflow-hidden">
+       <CodeEditor />
        </section>
 
   </main>
